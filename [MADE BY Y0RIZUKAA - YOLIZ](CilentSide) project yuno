@@ -1,0 +1,2023 @@
+--[=[
+ d888b  db    db d888888b      .d888b.      db      db    db  .d8b.  
+88' Y8b 88    88   `88'        VP  `8D      88      88    88 d8' `8b 
+88      88    88    88            odD'      88      88    88 88ooo88 
+88  ooo 88    88    88          .88'        88      88    88 88~~~88 
+88. ~8~ 88b  d88   .88.        j88.         88booo. 88b  d88 88   88    @uniquadev
+ Y888P  ~Y8888P' Y888888P      888888D      Y88888P ~Y8888P' YP   YP  CONVERTER 
+
+designed using localmaze gui creator
+]=]
+
+-- Instances: 19 | Scripts: 0 | Modules: 0 | Tags: 0
+local LMG2L = {};
+
+LMG2L["ScreenGui_1"] = Instance.new("ScreenGui")
+LMG2L["ScreenGui_1"].Parent = game.CoreGui
+LMG2L["ScreenGui_1"]["DisplayOrder"] = 9999999999999999999999999999999999999999999999999999999999999999;
+LMG2L["ScreenGui_1"]["AutoLocalize"] = false;
+LMG2L["ScreenGui_1"]["Name"] = [[discord.com/invite/Gnabm6WfhA]];
+
+LMG2L["Frame_2"] = Instance.new("Frame", LMG2L["ScreenGui_1"]);
+LMG2L["Frame_2"]["BorderSizePixel"] = 0;
+LMG2L["Frame_2"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["Frame_2"]["Size"] = UDim2.new(0, 492, 0, 30);
+LMG2L["Frame_2"]["Position"] = UDim2.new(0, 70, 0, 60);
+LMG2L["UIDragDetector_13"] = Instance.new("UIDragDetector", LMG2L["Frame_2"])
+LMG2L["ImageLabel_3"] = Instance.new("ImageLabel", LMG2L["Frame_2"]);
+LMG2L["ImageLabel_3"]["BorderSizePixel"] = 0;
+LMG2L["ImageLabel_3"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["ImageLabel_3"]["Image"] = [[rbxassetid://121277228837870]];
+LMG2L["ImageLabel_3"]["Size"] = UDim2.new(0, 26, 0, 24);
+LMG2L["ImageLabel_3"]["BackgroundTransparency"] = 1;
+LMG2L["ImageLabel_3"]["Position"] = UDim2.new(0, 6, 0, 2);
+LMG2L["TextLabel_4"] = Instance.new("TextLabel", LMG2L["ImageLabel_3"]);
+LMG2L["TextLabel_4"]["TextWrapped"] = true;
+LMG2L["TextLabel_4"]["BorderSizePixel"] = 0;
+LMG2L["TextLabel_4"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+LMG2L["TextLabel_4"]["TextScaled"] = true;
+LMG2L["TextLabel_4"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["TextLabel_4"]["FontFace"] = Font.new([[rbxasset://fonts/families/Nunito.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+LMG2L["TextLabel_4"]["BackgroundTransparency"] = 1;
+LMG2L["TextLabel_4"]["Size"] = UDim2.new(0, 228, 0, 24);
+LMG2L["TextLabel_4"]["Text"] = [[Yuno Executor]];
+LMG2L["TextLabel_4"]["Position"] = UDim2.new(0, 32, 0, 0);
+LMG2L["ImageLabel2_5"] = Instance.new("ImageLabel", LMG2L["Frame_2"]);
+LMG2L["ImageLabel2_5"]["BorderSizePixel"] = 0;
+LMG2L["ImageLabel2_5"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+-- LMG2L["ImageLabel2_5"]["ImageContent"] = ;
+LMG2L["ImageLabel2_5"]["Image"] = [[rbxassetid://97582071187697]];
+LMG2L["ImageLabel2_5"]["Size"] = UDim2.new(0, 492, 0, 336);
+LMG2L["ImageLabel2_5"]["Name"] = [[ImageLabel2]];
+LMG2L["ImageLabel2_5"]["Position"] = UDim2.new(0, 0, 0, 30);
+LMG2L["Frame_6"] = Instance.new("Frame", LMG2L["ImageLabel2_5"]);
+LMG2L["Frame_6"]["BorderSizePixel"] = 0;
+LMG2L["Frame_6"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["Frame_6"]["Size"] = UDim2.new(0, 492, 0, 426);
+LMG2L["Frame_6"]["Position"] = UDim2.new(0, 1, 0, -1);
+LMG2L["Frame_6"]["BackgroundTransparency"] = 1;
+LMG2L["TextButton4_7"] = Instance.new("TextButton", LMG2L["Frame_6"]);
+LMG2L["TextButton4_7"]["RichText"] = true;
+LMG2L["TextButton4_7"]["TextSize"] = 18;
+LMG2L["TextButton4_7"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+LMG2L["TextButton4_7"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["TextButton4_7"]["FontFace"] = Font.new([[rbxasset://fonts/families/HighwayGothic.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+LMG2L["TextButton4_7"]["BackgroundTransparency"] = 0.6;
+LMG2L["TextButton4_7"]["Size"] = UDim2.new(0, 110, 0, 56);
+LMG2L["TextButton4_7"]["Text"] = [[INJECT]];
+LMG2L["TextButton4_7"]["Name"] = [[TextButton4]];
+LMG2L["TextButton4_7"]["Position"] = UDim2.new(0, 233, 0, 276);
+LMG2L["TextButton2_a"] = Instance.new("TextButton", LMG2L["Frame_6"]);
+LMG2L["TextButton2_a"]["RichText"] = true;
+LMG2L["TextButton2_a"]["TextSize"] = 18;
+LMG2L["TextButton2_a"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+LMG2L["TextButton2_a"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["TextButton2_a"]["FontFace"] = Font.new([[rbxasset://fonts/families/HighwayGothic.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+LMG2L["TextButton2_a"]["BackgroundTransparency"] = 0.6;
+LMG2L["TextButton2_a"]["Size"] = UDim2.new(0, 110, 0, 56);
+LMG2L["TextButton2_a"]["Text"] = [[CLEAR]];
+LMG2L["TextButton2_a"]["Name"] = [[TextButton2]];
+LMG2L["TextButton2_a"]["Position"] = UDim2.new(0, 118, 0, 276);
+LMG2L["TextButton5_b"] = Instance.new("TextButton", LMG2L["Frame_6"]);
+LMG2L["TextButton5_b"]["RichText"] = true;
+LMG2L["TextButton5_b"]["TextSize"] = 18;
+LMG2L["TextButton5_b"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+LMG2L["TextButton5_b"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["TextButton5_b"]["FontFace"] = Font.new([[rbxasset://fonts/families/HighwayGothic.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+LMG2L["TextButton5_b"]["BackgroundTransparency"] = 0.6;
+LMG2L["TextButton5_b"]["Size"] = UDim2.new(0, 68, 0, 56);
+LMG2L["TextButton5_b"]["Text"] = [[R6]];
+LMG2L["TextButton5_b"]["Name"] = [[TextButton5]];
+LMG2L["TextButton5_b"]["Position"] = UDim2.new(0, 348, 0, 276);
+LMG2L["TextButton3_c"] = Instance.new("TextButton", LMG2L["Frame_6"]);
+LMG2L["TextButton3_c"]["RichText"] = true;
+LMG2L["TextButton3_c"]["TextSize"] = 18;
+LMG2L["TextButton3_c"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+LMG2L["TextButton3_c"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["TextButton3_c"]["FontFace"] = Font.new([[rbxasset://fonts/families/HighwayGothic.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+LMG2L["TextButton3_c"]["BackgroundTransparency"] = 0.6;
+LMG2L["TextButton3_c"]["Size"] = UDim2.new(0, 66, 0, 56);
+LMG2L["TextButton3_c"]["Text"] = [[RE]];
+LMG2L["TextButton3_c"]["Name"] = [[TextButton3]];
+LMG2L["TextButton3_c"]["Position"] = UDim2.new(0, 422, 0, 276);
+LMG2L["ScrollingFrame2_d"] = Instance.new("ScrollingFrame", LMG2L["Frame_6"]);
+LMG2L["ScrollingFrame2_d"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["ScrollingFrame2_d"]["Name"] = [[ScrollingFrame2]];
+LMG2L["ScrollingFrame2_d"]["HorizontalScrollBarInset"] = Enum.ScrollBarInset.ScrollBar;
+LMG2L["ScrollingFrame2_d"]["Size"] = UDim2.new(0, 362, 0, 266);
+LMG2L["ScrollingFrame2_d"]["ScrollBarImageColor3"] = Color3.fromRGB(177, 177, 177);
+LMG2L["ScrollingFrame2_d"]["Position"] = UDim2.new(0, 2, 0, 6);
+LMG2L["ScrollingFrame2_d"]["BackgroundTransparency"] = 0.6;
+LMG2L["TextBox_e"] = Instance.new("TextBox", LMG2L["ScrollingFrame2_d"]);
+LMG2L["TextBox_e"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+LMG2L["TextBox_e"]["BorderSizePixel"] = 0;
+LMG2L["TextBox_e"]["TextWrapped"] = true;
+LMG2L["TextBox_e"]["TextSize"] = 14;
+LMG2L["TextBox_e"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+LMG2L["TextBox_e"]["TextYAlignment"] = Enum.TextYAlignment.Top;
+LMG2L["TextBox_e"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["TextBox_e"]["FontFace"] = Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+LMG2L["TextBox_e"]["MultiLine"] = true;
+LMG2L["TextBox_e"]["ClearTextOnFocus"] = false;
+LMG2L["TextBox_e"]["Size"] = UDim2.new(0, 370, 0, 270);
+LMG2L["TextBox_e"]["AutomaticSize"] = Enum.AutomaticSize.XY;
+LMG2L["TextBox_e"]["Position"] = UDim2.new(0, 4, 0, 0);
+LMG2L["TextBox_e"]["Text"] = [[-- Print Console      
+print("CilentSide")]];
+LMG2L["TextBox_e"]["BackgroundTransparency"] = 1;
+LMG2L["TextButton_f"] = Instance.new("TextButton", LMG2L["Frame_6"]);
+LMG2L["TextButton_f"]["TextSize"] = 18;
+LMG2L["TextButton_f"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+LMG2L["TextButton_f"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["TextButton_f"]["FontFace"] = Font.new([[rbxasset://fonts/families/HighwayGothic.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+LMG2L["TextButton_f"]["BackgroundTransparency"] = 0.6;
+LMG2L["TextButton_f"]["Size"] = UDim2.new(0, 110, 0, 56);
+LMG2L["TextButton_f"]["Text"] = [[EXECUTE]];
+LMG2L["TextButton_f"]["Position"] = UDim2.new(0, 2, 0, 276);
+LMG2L["TextButton_10"] = Instance.new("TextButton", LMG2L["Frame_2"]);
+LMG2L["TextButton_10"]["TextWrapped"] = true;
+LMG2L["TextButton_10"]["BorderSizePixel"] = 0;
+LMG2L["TextButton_10"]["TextSize"] = 30;
+LMG2L["TextButton_10"]["TextColor3"] = Color3.fromRGB(69, 69, 69);
+LMG2L["TextButton_10"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["TextButton_10"]["FontFace"] = Font.new([[rbxasset://fonts/families/Nunito.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+LMG2L["TextButton_10"]["BackgroundTransparency"] = 9;
+LMG2L["TextButton_10"]["Size"] = UDim2.new(0, 34, 0, 18);
+LMG2L["TextButton_10"]["Text"] = [[X]];
+LMG2L["TextButton_10"]["Position"] = UDim2.new(0, 458, 0, 5);
+LMG2L["ImageLabel3_11"] = Instance.new("ImageLabel", LMG2L["Frame_2"]);
+LMG2L["ImageLabel3_11"]["BorderSizePixel"] = 0;
+LMG2L["ImageLabel3_11"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["ImageLabel3_11"]["Image"] = [[rbxassetid://78673506636333]];
+LMG2L["ImageLabel3_11"]["Size"] = UDim2.new(0, 90, 0, 26);
+LMG2L["ImageLabel3_11"]["Name"] = [[ImageLabel3]];
+LMG2L["ImageLabel3_11"]["Position"] = UDim2.new(0, 370, 0, 0);
+LMG2L["ImageLabel_12"] = Instance.new("ImageLabel", LMG2L["ImageLabel3_11"]);
+LMG2L["ImageLabel_12"]["BorderSizePixel"] = 0;
+LMG2L["ImageLabel_12"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["ImageLabel_12"]["ImageTransparency"] = 1;
+LMG2L["ImageLabel_12"]["Size"] = UDim2.new(0, 28, 0, 24);
+LMG2L["ImageLabel_12"]["BackgroundTransparency"] = 1;
+LMG2L["ImageLabel_12"]["Position"] = UDim2.new(0, 8, 0, 2);
+
+LMG2L["ScrollingFrame_8"] = Instance.new("ScrollingFrame", LMG2L["Frame_6"]);
+LMG2L["ScrollingFrame_8"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["ScrollingFrame_8"]["Size"] = UDim2.new(0, 116, 0, 266);
+LMG2L["ScrollingFrame_8"]["ScrollBarImageColor3"] = Color3.fromRGB(177, 177, 177);
+LMG2L["ScrollingFrame_8"]["Position"] = UDim2.new(0, 370, 0, 6);
+LMG2L["ScrollingFrame_8"]["BackgroundTransparency"] = 0.6;
+local buttons = {
+    {"Anonymous.txt", function()
+        LMG2L["TextBox_e"]["Text"] = [[pe = Instance.new("ParticleEmitter",game.Players.LocalPlayer.Character.Torso)
+pe.Texture = "http://roblox.com/asset/?id=127476787"
+pe.VelocitySpread = 1]]
+    end},
+
+    {"AnonymousDes.txt", function()
+         LMG2L["TextBox_e"]["Text"] = [[local textureId = "rbxassetid://73053804512950"
+local textureId2 = "rbxassetid://127476787"
+local soundId = "rbxassetid://1840712882"
+local function applyDecals(root)
+for _, v in pairs(root:GetChildren()) do
+if v:IsA("Decal") then
+if v.Texture ~= textureId then
+v:Destroy()
+end
+elseif v:IsA("BasePart") then
+for _, child in pairs(v:GetChildren()) do
+if child:IsA("Decal") then
+child:Destroy()
+end
+end
+v.Material = Enum.Material.Plastic
+v.Transparency = 0
+for _, face in ipairs(Enum.NormalId:GetEnumItems()) do
+local decal = Instance.new("Decal")
+decal.Texture = textureId
+decal.Face = face
+decal.Parent = v
+end
+end
+applyDecals(v) -- Recurse
+end
+end
+applyDecals(game.Workspace)
+local lighting = game:GetService("Lighting")
+local existingSky = lighting:FindFirstChildOfClass("Sky")
+if existingSky then
+existingSky:Destroy()
+end
+local sky = Instance.new("Sky")
+sky.Name = "Sky"
+sky.SkyboxBk = textureId2
+sky.SkyboxDn = textureId2
+sky.SkyboxFt = textureId2
+sky.SkyboxLf = textureId2
+sky.SkyboxRt = textureId2
+sky.SkyboxUp = textureId2
+sky.Parent = lighting
+lighting.TimeOfDay = "12:00:00"
+local sound = Instance.new("Sound")
+sound.Name = "BackgroundSound"
+sound.SoundId = soundId
+sound.Looped = true
+sound.Volume = 100000000000000
+sound.PlaybackSpeed = 1
+sound.Pitch = 1.1
+sound.Parent = game.Workspace
+local distortion = Instance.new("DistortionSoundEffect")
+distortion.Level = 1000000000
+distortion.Parent = sound
+sound:Play()
+for _, part in pairs(game.Workspace:GetDescendants()) do
+if part:IsA("BasePart") then
+part.Anchored = false
+end
+end]]
+    end},
+
+    {"Anonymous all.txt", function()
+        LMG2L["TextBox_e"]["Text"] = [[local playerLeaderstats = {}
+for i, v in pairs(game.Players:GetChildren()) do
+table.insert(playerLeaderstats, v)
+end
+for i, v in pairs(playerLeaderstats) do
+pe = Instance.new("ParticleEmitter",v.Character.Torso)
+pe.Texture = "http://www.roblox.com/asset/?id=127476787"
+pe.VelocitySpread = 50
+end]]
+    end},
+
+    {"Anime suit.txt", function()
+LMG2L["TextBox_e"]["Text"] = [[
+--[
+
+--By Chromium
+
+--Project started: June 26th, 2016
+--Last updated: June 28th, 2016
+
+--my first script
+
+--]
+
+wait()
+local hum = game.Workspace.gus14657.Humanoid --name here
+local plr = game.Workspace.gus14657 --name here 
+
+wait(0.1)
+hum.WalkSpeed = 32
+
+plr.Head.face.Texture = "http://www.roblox.com/asset/?id=101765221"
+	plr.Shirt:Remove()
+	plr.Pants:Remove()
+
+Shirt = Instance.new("Shirt",Character)
+	Shirt.Parent = plr
+	Shirt.ShirtTemplate = "http://www.roblox.com/asset/?id=249639658"
+
+Pant = Instance.new("Pants",Character)
+	Pant.Parent = plr
+	Pant.PantsTemplate = "http://www.roblox.com/asset/?id=249639685"
+
+lite = Instance.new("PointLight")
+	lite.Parent = plr.Torso
+	lite.Brightness = 100
+	lite.Range = 8
+	lite.Color = Color3.new(1,1,1)
+]]
+    end},
+
+    {"Acceleration Coil.txt", function()
+       LMG2L["TextBox_e"]["Text"] = [[ --Made by N3xul
+local runDummyScript = function(f,scri)
+local oldenv = getfenv(f)
+local newenv = setmetatable({}, {
+__index = function(_, k)
+if k:lower() == 'script' then
+return scri
+else
+return oldenv[k]
+end
+end
+})
+setfenv(f, newenv)
+ypcall(function() f() end)
+end
+cors = {}
+mas = Instance.new("Model",game:GetService("Lighting")) 
+mas.Name = "CompiledModel"
+o1 = Instance.new("Tool")
+o2 = Instance.new("Part")
+o3 = Instance.new("Sound")
+o4 = Instance.new("SpecialMesh")
+o5 = Instance.new("Script")
+o1.Name = "Acceleration Coil"
+o1.Parent = mas
+o1.TextureId = "http://www.roblox.com/asset/?id=99170415"
+o1.GripForward = Vector3.new(-1.16108947e-015, -1.16108926e-015, -1)
+o1.GripPos = Vector3.new(-3.39994735e-008, 3.39994877e-008, -0.99999994)
+o1.GripRight = Vector3.new(-0.707106709, 0.707106829, 0)
+o1.GripUp = Vector3.new(-0.707106829, -0.707106709, -1.64202843e-015)
+o1.ToolTip = "Speed Up!"
+o2.Name = "Handle"
+o2.Parent = o1
+o2.BrickColor = BrickColor.new("Bright red")
+o2.Position = Vector3.new(-80.2682571, 4.39874029, -15.8760309)
+o2.Rotation = Vector3.new(-24.4339752, -5.23770761, 97.4843369)
+o2.Locked = true
+o2.FormFactor = Enum.FormFactor.Custom
+o2.Size = Vector3.new(1.29999995, 1.29999995, 2.4000001)
+o2.CFrame = CFrame.new(-80.2682571, 4.39874029, -15.8760309, -0.129711196, -0.98734045, -0.0912879705, 0.897763848, -0.156028524, 0.41191718, -0.420945883, -0.0285246819, 0.906636953)
+o2.BottomSurface = Enum.SurfaceType.Smooth
+o2.TopSurface = Enum.SurfaceType.Smooth
+o2.Color = Color3.new(0.768628, 0.156863, 0.109804)
+o2.Position = Vector3.new(-80.2682571, 4.39874029, -15.8760309)
+o3.Name = "CoilSound"
+o3.Parent = o2
+o3.SoundId = "http://www.roblox.com/asset/?id=99173388"
+o3.Volume = 1
+o4.Parent = o2
+o4.MeshId = "http://www.roblox.com/asset/?id=16606212"
+o4.Scale = Vector3.new(0.699999988, 0.699999988, 0.699999988)
+o4.TextureId = "http://www.roblox.com/asset/?id=99170547"
+o4.MeshType = Enum.MeshType.FileMesh
+o5.Parent = o1
+table.insert(cors,coroutine.create(function()
+wait()
+runDummyScript(function()
+local Tool = script.Parent
+local speedforsmoke = 10
+
+local CoilSound = Tool.Handle:WaitForChild("CoilSound")
+
+function MakeSmoke(HRP, Human)
+	smoke=Instance.new("Smoke")
+	smoke.Enabled=HRP.Velocity.magnitude>speedforsmoke
+	smoke.RiseVelocity=2
+	smoke.Opacity=.25
+	smoke.Size=.5
+	smoke.Parent=HRP
+	Human.Running:connect(function(speed)
+		if smoke and smoke~=nil then
+			smoke.Enabled=speed>speedforsmoke
+		end
+	end)
+end
+
+Tool.Equipped:connect(function()
+	local Handle = Tool:WaitForChild("Handle")
+	local HRP = Tool.Parent:FindFirstChild("HumanoidRootPart")
+	local Human = Tool.Parent:FindFirstChild("Humanoid")
+	CoilSound:Play()
+	Human.WalkSpeed = Human.WalkSpeed * 8
+	MakeSmoke(HRP, Human)
+end)
+
+Tool.Unequipped:connect(function()
+	local plrChar = Tool.Parent.Parent.Character
+	local HRP = plrChar.HumanoidRootPart
+	if HRP:FindFirstChild("Smoke") then
+		HRP.Smoke:Destroy()
+	end
+	plrChar.Humanoid.WalkSpeed = plrChar.Humanoid.WalkSpeed / 1.5
+end)
+end,o5)
+end))
+mas.Parent = workspace
+mas:MakeJoints()
+local mas1 = mas:GetChildren()
+for i=1,#mas1 do
+	mas1[i].Parent = game:GetService("Players").LocalPlayer.Backpack 
+	ypcall(function() mas1[i]:MakeJoints() end)
+end
+mas:Destroy()
+for i=1,#cors do
+coroutine.resume(cors[i])
+end]]
+    end},
+
+    {"A Random Sky", function()
+        LMG2L["TextBox_e"]["Text"] = [[local lighting = game:GetService("Lighting")
+lighting:ClearAllChildren()
+local sky = Instance.new("Sky", lighting)
+sky.SkyboxBk = "rbxassetid://160456772"
+sky.SkyboxFt = "rbxassetid://160456772"
+sky.SkyboxLf = "rbxassetid://160456772"
+sky.SkyboxRt = "rbxassetid://160456772"
+sky.SkyboxUp = "rbxassetid://160456772"
+sky.SkyboxDn = "rbxassetid://160456772"
+]]
+    end},
+
+    {"Ar - Rocky2u", function()
+        LMG2L["TextBox_e"]["Text"] = [[if game.CoreGui:FindFirstChild('APOC') then
+	game.CoreGui.APOC:Destroy()
+end
+
+game:GetObjects('rbxassetid://291330215')[1].Parent = game.CoreGui
+
+wait(0.1)
+
+local Player = game.Players.LocalPlayer
+
+local apocGUI = game.CoreGui.APOC
+local MAIN = apocGUI.MAIN
+
+local Open = apocGUI.Open
+local Exit = MAIN.Exit
+
+Open:TweenPosition(UDim2.new(0,0,0,380), 'InOut', 'Quad', 0.5, true)
+
+local Clip = true
+local ESP = false
+local Floating = false
+local Stamina = false
+local BoostReady = true
+local GodMode = false
+
+-- Open and Exit --
+
+Open.MouseButton1Down:connect(function()
+	Open.Active = false
+	Exit.Active = true
+	Open:TweenPosition(UDim2.new(0,-30,0,380), 'InOut', 'Quad', 0.5, true)
+	MAIN:TweenPosition(UDim2.new(0,10,0,420), 'InOut', 'Quad', 0.5, true)
+end)
+
+Exit.MouseButton1Down:connect(function()
+	Open.Active = true
+	Exit.Active = false
+	Open:TweenPosition(UDim2.new(0,0,0,380), 'InOut', 'Quad', 0.5, true)
+	MAIN:TweenPosition(UDim2.new(0,-230,0,420), 'InOut', 'Quad', 0.5, true)
+end)
+
+-- ESP --
+
+local track = false
+
+function Create(base, team)
+    local espMAIN = apocGUI.ESP:Clone()
+    local F = espMAIN.DOT
+
+    espMAIN.Parent = Player.PlayerGui
+	espMAIN.Adornee = base
+	
+	F.Visible = true
+end
+
+function Clear()
+	for _,v in pairs(Player.PlayerGui:children()) do
+		if v.Name == "ESP" and v:IsA("BillboardGui") then
+			v:Destroy()
+		end
+	end
+end
+
+function Find()
+	Clear()
+	track = true
+	spawn(function()
+		while wait() do
+			if track then
+				Clear()
+				for i,v in pairs(game.Players:players()) do
+					if v.Character and v.Character.Head then
+						Create(v.Character.Head, true)
+					end
+				end
+			end
+			wait(1)
+		end
+	end)
+end
+
+-- Night Vision --
+
+function NightVision()
+	local nvGUI = Instance.new('ScreenGui', Player.PlayerGui)
+	nvGUI.Name = 'NightVision'
+	local nvMAIN = Instance.new('TextLabel', nvGUI)
+	nvMAIN.Name = 'MAIN'
+	nvMAIN.BackgroundColor = BrickColor.new(0,1,0)
+	nvMAIN.BackgroundTransparency = 0.75
+	nvMAIN.BorderSizePixel = 0
+	nvMAIN.Size = UDim2.new(1,0,1,0)
+	nvMAIN.Text = ''
+	
+	for i,v in pairs(game.Players:GetChildren()) do
+		if v and v.Character and not (v.Name == '' .. Player.Name) then
+			for i,v in pairs(v.Character:GetChildren()) do
+				if v:IsA('BasePart') then
+					local nvBox = Instance.new('SelectionBox', nvMAIN)
+					nvBox.Adornee = v
+					nvBox.Color = BrickColor.new('Lime green')
+				end
+			end
+		end
+	end
+end
+
+-- Main Functions --
+
+-- NoClip --
+
+MAIN.NoClip.MouseButton1Down:connect(function()
+	MAIN.NoClip.Visible = false
+	MAIN.Clip.Visible = true
+	Clip = false
+	wait(1)
+	Player.PlayerGui.ChildAdded:connect(function(NC)
+		delay(0,function()
+			if NC.Name == 'NC' then
+				NC:Destroy()
+			end
+		end)
+	end)
+	game:GetService('RunService').Stepped:connect(function()
+		game.Workspace[Player.Name].Torso.CanCollide = Clip
+		game.Workspace[Player.Name].Head.CanCollide = Clip
+	end)
+	game.Workspace[Player.Name].Torso.Changed:connect(function()
+		game.Workspace[Player.Name].Torso.CanCollide = Clip
+		game.Workspace[Player.Name].Head.CanCollide = Clip
+	end)
+end)
+
+MAIN.Clip.MouseButton1Down:connect(function()
+	MAIN.Clip.Visible = false
+	MAIN.NoClip.Visible = true
+	Clip = true
+end)
+
+-- ESP --
+
+MAIN.ESPF.MouseButton1Down:connect(function()
+	MAIN.ESPF.Visible = false
+	MAIN.ESPT.Visible = true
+	Find()
+	ESP = true
+end)
+
+MAIN.ESPT.MouseButton1Down:connect(function()
+	MAIN.ESPT.Visible = false
+	MAIN.ESPF.Visible = true
+	Clear()
+	track = false
+	ESP = false
+end)
+
+-- Floating --
+
+MAIN.FloatF.MouseButton1Down:connect(function()
+	MAIN.FloatF.Visible = false
+	MAIN.FloatT.Visible = true
+	Floating = true
+	local Float = apocGUI.Float:Clone()
+	Float.Parent = Player.Character
+	Float.CFrame = Player.Character.Torso.CFrame * CFrame.new(0,-3.5,0)
+	spawn(function()
+		while wait(0.1) do
+			if Player.Character:FindFirstChild('Float') then
+				Float.CFrame = Player.Character.Torso.CFrame * CFrame.new(0,-3.5,0)
+			else
+				break
+			end
+		end
+	end)
+end)
+
+MAIN.FloatT.MouseButton1Down:connect(function()
+	MAIN.FloatT.Visible = false
+	MAIN.FloatF.Visible = true
+	Floating = false
+	if Player.Character:FindFirstChild('Float') then
+		Player.Character.Float:Destroy()
+	end
+end)
+
+-- Thirst --
+
+MAIN.Thirst.MouseButton1Down:connect(function()
+	Player.playerstats.Thirst.Value = MAIN.Thirst.TNumber.Text
+end)
+
+-- Hunger --
+
+MAIN.Hunger.MouseButton1Down:connect(function()
+	Player.playerstats.Hunger.Value = MAIN.Hunger.HNumber.Text
+end)
+
+-- Health --
+
+MAIN.Health.MouseButton1Down:connect(function()
+	Player.Character.Humanoid.Health = MAIN.Hunger.HNumber.Text
+end)
+
+-- Stamina --
+
+MAIN.StaminaF.MouseButton1Down:connect(function()
+	MAIN.StaminaF.Visible = false
+	MAIN.StaminaT.Visible = true
+	Stamina = true
+	while wait() do
+		if Stamina == true then
+			Player.Backpack.GlobalFunctions.Stamina.Value = 100
+		end
+	end
+end)
+
+MAIN.StaminaT.MouseButton1Down:connect(function()
+	MAIN.StaminaT.Visible = false
+	MAIN.StaminaF.Visible = true
+	Stamina = false
+end)
+
+-- Boost --
+
+MAIN.Boost.MouseButton1Down:connect(function()
+	MAIN.FloatF.Visible = true
+	MAIN.FloatT.Visible = false
+	Floating = false
+	if Player.Character:FindFirstChild('Float') then
+		Player.Character.Float:Destroy()
+	end
+	if BoostReady == true then
+	    Player.Character.HumanoidRootPart.Velocity = Player.Character.HumanoidRootPart.CFrame.lookVector * 500
+	    BoostReady = false
+	    MAIN.Boost.Text = '5'
+	    wait(1)
+	    MAIN.Boost.Text = '4'
+	    wait(1)
+	    MAIN.Boost.Text = '3'
+	    wait(1)
+	    MAIN.Boost.Text = '2'
+	    wait(1)
+	    MAIN.Boost.Text = '1'
+	    wait(1)
+	    BoostReady = true
+	    MAIN.Boost.Text = 'Boost'
+	end
+end)
+
+-- GodMode --
+
+MAIN.GodModeF.MouseButton1Down:connect(function()
+	MAIN.GodModeF.Visible = false
+	MAIN.GodModeT.Visible = true
+	GodMode = true
+	if GodMode == true then
+		repeat wait()
+			Player.Character.Humanoid.Health = Player.Character.Humanoid.MaxHealth
+			wait()
+			Player.playerstats.Health.Value = Player.Character.Humanoid.Health
+		until GodMode == false
+	end
+end)
+
+MAIN.GodModeT.MouseButton1Down:connect(function()
+	MAIN.GodModeT.Visible = false
+	MAIN.GodModeF.Visible = true
+	GodMode = false
+end)
+
+-- NoGrav --
+
+MAIN.NoGrav.MouseButton1Down:connect(function()
+	MAIN.NoGrav.Visible = false
+	MAIN.Grav.Visible = true
+	for i,v in pairs(Player.Character.Torso:GetChildren()) do
+		if v.Name == 'NoGrav' and v:IsA('BodyForce') then
+			v:Destroy()
+		end
+	end
+	local BF = Instance.new('BodyForce', Player.Character.Torso)
+	BF.Name = 'NoGrav'
+	BF.Force = Vector3.new(0,4000,0)
+end)
+
+MAIN.Grav.MouseButton1Down:connect(function()
+	MAIN.Grav.Visible = false
+	MAIN.NoGrav.Visible = true
+	for i,v in pairs(Player.Character.Torso:GetChildren()) do
+		if v.Name == 'NoGrav' and v:IsA('BodyForce') then
+			v:Destroy()
+		end
+	end
+end)
+
+-- Night Vision --
+
+MAIN.NightVision.MouseButton1Down:connect(function()
+	MAIN.NightVision.Visible = false
+	MAIN.Vision.Visible = true
+	NightVision()
+end)
+
+MAIN.Vision.MouseButton1Down:connect(function()
+	MAIN.Vision.Visible = false
+	MAIN.NightVision.Visible = true
+	for i,v in pairs(Player.PlayerGui:GetChildren()) do
+		if v.Name == 'NightVision' and v:IsA('ScreenGui') then
+			v:Destroy()
+		end
+	end
+end)
+]]
+    end},
+
+    {"apple throw.txt", function()
+        LMG2L["TextBox_e"]["Text"] = [[do --CFrame lerp (stravant, clerp by AntiBoomz0r)
+        local function QuaternionFromCFrame(cf) 
+                local mx, my, mz, m00, m01, m02, m10, m11, m12, m20, m21, m22 = cf:components() 
+                local trace = m00 + m11 + m22 
+                if trace > 0 then 
+                        local s = math.sqrt(1 + trace) 
+                        local recip = 0.5/s 
+                        return (m21-m12)*recip, (m02-m20)*recip, (m10-m01)*recip, s*0.5 
+                else 
+                        local i = 0 
+                        if m11 > m00 then
+                                i = 1 
+                        end 
+                        if m22 > (i == 0 and m00 or m11) then 
+                                i = 2 
+                        end 
+                        if i == 0 then 
+                                local s = math.sqrt(m00-m11-m22+1) 
+                                local recip = 0.5/s 
+                                return 0.5*s, (m10+m01)*recip, (m20+m02)*recip, (m21-m12)*recip 
+                        elseif i == 1 then 
+                                local s = math.sqrt(m11-m22-m00+1) 
+                                local recip = 0.5/s 
+                                return (m01+m10)*recip, 0.5*s, (m21+m12)*recip, (m02-m20)*recip 
+                        elseif i == 2 then 
+                                local s = math.sqrt(m22-m00-m11+1) 
+                                local recip = 0.5/s return (m02+m20)*recip, (m12+m21)*recip, 0.5*s, (m10-m01)*recip 
+                        end 
+                end 
+        end
+        local function QuaternionToCFrame(px, py, pz, x, y, z, w) 
+                local xs, ys, zs = x + x, y + y, z + z 
+                local wx, wy, wz = w*xs, w*ys, w*zs 
+                local xx = x*xs 
+                local xy = x*ys 
+                local xz = x*zs 
+                local yy = y*ys 
+                local yz = y*zs 
+                local zz = z*zs 
+                return CFrame.new(px, py, pz,1-(yy+zz), xy - wz, xz + wy,xy + wz, 1-(xx+zz), yz - wx, xz - wy, yz + wx, 1-(xx+yy)) 
+                end   
+        local function QuaternionSlerp(a, b, t) 
+                local cosTheta = a[1]*b[1] + a[2]*b[2] + a[3]*b[3] + a[4]*b[4] 
+                local startInterp, finishInterp; 
+                if cosTheta >= 0.0001 then 
+                        if (1 - cosTheta) > 0.0001 then 
+                                local theta = math.acos(cosTheta) 
+                                local invSinTheta = 1/math.sin(theta) 
+                                startInterp = math.sin((1-t)*theta)*invSinTheta 
+                                finishInterp = math.sin(t*theta)*invSinTheta  
+                        else 
+                                startInterp = 1-t 
+                                finishInterp = t 
+                        end 
+                else
+                        if (1+cosTheta) > 0.0001 then 
+                                local theta = math.acos(-cosTheta) 
+                                local invSinTheta = 1/math.sin(theta) 
+                                startInterp = math.sin((t-1)*theta)*invSinTheta 
+                                finishInterp = math.sin(t*theta)*invSinTheta 
+                        else 
+                                startInterp = t-1 
+                                finishInterp = t 
+                        end 
+                end 
+                return a[1]*startInterp + b[1]*finishInterp, a[2]*startInterp + b[2]*finishInterp, a[3]*startInterp + b[3]*finishInterp, a[4]*startInterp + b[4]*finishInterp 
+        end  
+        function clerp(a,b,t) 
+                local qa = {QuaternionFromCFrame(a)}
+                local qb = {QuaternionFromCFrame(b)} 
+                local ax, ay, az = a.x, a.y, a.z 
+                local bx, by, bz = b.x, b.y, b.z  
+                local _t = 1-t 
+                return QuaternionToCFrame(_t*ax + t*bx, _t*ay + t*by, _t*az + t*bz,QuaternionSlerp(qa, qb, t)) 
+        end 
+end
+
+
+do --rayCast
+    function rayCast(startpos, Speed, Gravity, Dmg)
+        local ran,err = ypcall(function()
+    local rayPart         = Instance.new("Part", char)
+    rayPart.Name          = "RayPart"
+    rayPart.BrickColor    = BrickColor.new("Really red")
+    rayPart.Anchored      = true
+    rayPart.Shape         = Shape or "Ball"
+    rayPart.CanCollide    = false
+	rayPart.Locked        = true
+    rayPart.TopSurface    = Enum.SurfaceType.Smooth
+    rayPart.BottomSurface = Enum.SurfaceType.Smooth
+    rayPart.Size          = Vector3.new(.2, 2, .2)
+    local msh = Instance.new("SpecialMesh",rayPart)
+    msh.MeshId = "http://www.roblox.com/asset/?id=16190555"
+    msh.TextureId = "http://www.roblox.com/asset/?id=16190577"
+    msh.Scale = Vector3.new(2, 2, 2)
+
+	
+	
+
+    local bulletposition = startpos.Position
+    rayPart.CFrame = startpos.CFrame
+
+   local bulletvelocity = (Vector3.new(math.random(-2,2), math.random(-2,2), math.random(-2,2)))+( mouse.Hit.p - bulletposition).unit*Speed
+    local bulletlastposition = bulletposition
+
+
+    
+        coroutine.resume(coroutine.create(function()
+        while true do
+	        local dt = wait()
+            bulletlastposition = bulletposition
+            bulletvelocity = bulletvelocity + (Vector3.new(0, -3.81*Gravity, 0)*dt)
+	        bulletposition = bulletposition + (bulletvelocity*dt)
+                
+            local ray = Ray.new(bulletlastposition,  (bulletposition - bulletlastposition))
+
+            local hit, hitposition = workspace:FindPartOnRayWithIgnoreList( ray, { char, rayPart, camera} )
+	            
+	if (torso.Position - rayPart.Position).magnitude > 540 then
+	 	rayPart:Destroy()
+	 break
+	 end
+	
+	
+            if hit then
+					local damage = math.random(Dmg, Dmg+6)
+				if hit.Parent:findFirstChild("Humanoid") ~= nil then
+					hit.Parent.Humanoid.Health = hit.Parent.Humanoid.Health - damage
+				elseif hit.Parent:IsA("Hat") and hit.Parent.Parent:findFirstChild("Humanoid") then
+				    hit.Parent.Parent.Humanoid.Health = hit.Parent.Parent.Humanoid.Health - damage
+			    end
+				bulletposition = hitposition
+                rayPart.CFrame = CFrame.new(bulletposition, bulletposition+bulletvelocity) * CFrame.Angles(math.pi/2, 0, 0)
+                for i = 1, 50 do
+		    local s = Instance.new("Part")
+		s.CanCollide = false
+		s.Shape = 1
+		s.Locked = true
+		s.formFactor = "Custom"
+		pl = Instance.new("PointLight", s)
+		pl.Range = 8
+		pl.Color = Color3.new(0.8, 0.8, 0)
+		s.Size = Vector3.new(.3,.3,.3)
+		s.Transparency = 0.5
+		s.BrickColor = BrickColor.new("Brick yellow")
+		local v = Vector3.new(math.random(-1,1), math.random(1,2), math.random(-1,1))
+		s.Velocity = 0.5 * v
+		s.CFrame = CFrame.new(rayPart.Position + v, v)
+		s.Parent = workspace
+		coroutine.resume(coroutine.create(function()
+			wait(2)
+			s:Destroy()
+		end))
+		end
+                rayPart:Destroy()
+                break
+            end
+	        rayPart.CFrame = CFrame.new(bulletposition, bulletposition+bulletvelocity) * CFrame.Angles(math.pi/2, 0, 0)
+			rayPart.Parent = workspace
+        end
+    end))
+end)
+if not ran and err then
+    print(err)
+    end
+end
+end
+
+do --the animating
+plr = game:service'Players'.LocalPlayer
+char = plr.Character
+mouse = plr:GetMouse()
+humanoid = char:findFirstChild("Humanoid")
+torso = char:findFirstChild("Torso")
+head = char.Head
+ra = char:findFirstChild("Right Arm")
+la = char:findFirstChild("Left Arm")
+rl = char:findFirstChild("Right Leg")
+ll = char:findFirstChild("Left Leg")
+rs = torso:findFirstChild("Right Shoulder")
+ls = torso:findFirstChild("Left Shoulder")
+rh = torso:findFirstChild("Right Hip")
+lh = torso:findFirstChild("Left Hip")
+neck = torso:findFirstChild("Neck")
+rj = char:findFirstChild("HumanoidRootPart"):findFirstChild("RootJoint")
+anim = char:findFirstChild("Animate")
+rootpart = char:findFirstChild("HumanoidRootPart")
+camera = workspace.CurrentCamera
+
+
+local rm = Instance.new("Weld", torso)
+rm.C0 = CFrame.new(1.5, 0.5, 0)
+rm.C1 = CFrame.new(0, 0.5, 0)
+rm.Part0 = torso
+rm.Part1 = ra
+local lm = Instance.new("Weld", torso)
+lm.C0 = CFrame.new(-1.5, 0.5, 0)
+lm.C1 = CFrame.new(0, 0.5, 0)
+lm.Part0 = torso
+lm.Part1 = la
+
+
+
+local speed = 0.3
+local angle = 0
+local anglespeed = 1
+rsc0 = rm.C0
+lsc0 = lm.C0
+rjc0 = rj.C0
+neckc0 = neck.C0
+radian = math.rad
+
+apple = Instance.new("Part", char)
+apple.FormFactor = "Custom"
+apple.Size = Vector3.new(1, 1, 1)
+apple:breakJoints()
+local wld = Instance.new("Weld", char)
+wld.C1 = CFrame.new(0, -1, 0)
+wld.C0 = CFrame.Angles(math.pi, 0, 0)
+wld.Part1 = ra
+wld.Part0 = apple
+local msh = Instance.new("SpecialMesh", apple)
+msh.MeshId = "http://www.roblox.com/asset/?id=16190555"
+msh.TextureId = "http://www.roblox.com/asset/?id=16190577"
+msh.Scale = Vector3.new(2, 2, 2)
+
+
+
+mouse.Button1Down:connect(function()
+    if throwing then return end
+    throwing = true
+    wait(wait()*8)
+        for trans = 1, 0, -0.1 do
+        apple.Transparency = trans
+        wait()
+    end
+end)
+
+done = false
+while wait() do
+    angle = (angle % 100) + anglespeed/10
+        mvmnt = math.pi * math.sin(math.pi*2/100*(angle*10))
+        local rscf = rsc0
+        local lscf = lsc0
+        local rjcf = rjc0
+        local ncf = neckc0
+        lscf = lsc0 * CFrame.Angles(-radian(5), 0, -radian(5))
+        if throwing then
+            for waiting = 0, 250, 30 do
+                if done then return end
+              rscf = rsc0 * CFrame.Angles(radian(waiting), 0, 0)
+              rm.C0 = clerp(rm.C0,rscf,speed)
+              wait()
+            if waiting == 250 then
+                done = true
+            end
+            end
+            rscf = rsc0 * CFrame.Angles(radian(120), 0, 0)
+            rayCast(apple, math.random(140, 150), 20, 28)
+        throwing = false
+        done = false
+        end
+    rm.C0 = clerp(rm.C0,rscf,speed)
+    lm.C0 = clerp(lm.C0,lscf,speed)
+    rj.C0 = clerp(rj.C0,rjcf,speed)
+    neck.C0 = clerp(neck.C0,ncf,speed)
+end
+end
+]]
+    end},
+
+    {"Bomb Vest.txt", function()
+        LMG2L["TextBox_e"]["Text"] = [[local Me = game:GetService("Players").LocalPlayer
+local Char = Me.Character
+local Torso = Char.Torso
+local TickWait = 1
+local Color = "Medium stone gray"
+local Dead = false
+
+local Tool = Instance.new("HopperBin", Me.Backpack)
+Tool.Name = "Bomb Vest"
+
+local Position = Vector3.new(0,100,0)
+function NewPart(Parent)
+local Part = Instance.new("Part", Parent)
+Part.CanCollide = false
+Part.FormFactor = "Custom"
+Part.Position = Position
+Part.TopSurface = "Smooth"
+Part.BottomSurface = "Smooth"
+Part.BrickColor = BrickColor.new(Color)
+Position = Position + Vector3.new(0,Part.Size.Y + 10,0)
+return Part
+end
+
+local Model = Char:FindFirstChild("Bomb")
+if Model then Model:Destroy() end
+
+Model = Instance.new("Model", Char)
+Model.Name = "Bomb"
+
+local Belt = NewPart(Model)
+Belt.Size = Vector3.new(2.2,0.5,1.2)
+local Weld = Instance.new("Weld", Belt)
+Weld.Part0 = Belt
+Weld.Part1 = Torso
+Weld.C0 = CFrame.new(0,1.1,0)
+local Light = Instance.new("PointLight", Belt)
+Light.Range = 15
+Light.Brightness = 5
+Light.Color = Color3.new(1,0,0)
+local Beep = Instance.new("Sound", Belt)
+Beep.SoundId = "http://www.roblox.com/asset/?id=188588790"
+local ExplodeSound = Instance.new("Sound", Belt)
+ExplodeSound.SoundId = "http://www.roblox.com/asset/?id="..(tonumber((math.ceil(1776.66^2)+17).."."..string.rep("36",3))*77)+0.00003 --144507765
+ExplodeSound.Pitch = 2.8
+ExplodeSound.Volume = 3
+
+local Back = NewPart(Model)
+Back.Size = Vector3.new(1.5,1.5,0.5)
+local Weld = Instance.new("Weld", Back)
+Weld.Part0 = Back
+Weld.Part1 = Torso
+Weld.C0 = CFrame.new(0,0.1,-0.75)
+
+local StrapLeft = NewPart(Model)
+StrapLeft.Size = Vector3.new(0.2,0.5,1.6)
+local Weld = Instance.new("Weld", StrapLeft)
+Weld.Part0 = StrapLeft
+Weld.Part1 = Torso
+Weld.C0 = CFrame.new(0.65,-0.9,-0.2)
+
+local BuckleLeft = NewPart(Model)
+BuckleLeft.Size = Vector3.new(0.2,1.5,0.2)
+local Weld = Instance.new("Weld", BuckleLeft)
+Weld.Part0 = BuckleLeft
+Weld.Part1 = Torso
+Weld.C0 = CFrame.new(0.65,0.1,0.5)
+
+local StrapRight = NewPart(Model)
+StrapRight.Size = Vector3.new(0.2,0.5,1.6)
+local Weld = Instance.new("Weld", StrapRight)
+Weld.Part0 = StrapRight
+Weld.Part1 = Torso
+Weld.C0 = CFrame.new(-0.65,-0.9,-0.2)
+
+local BuckleRight = NewPart(Model)
+BuckleRight.Size = Vector3.new(0.2,1.5,0.2)
+local Weld = Instance.new("Weld", BuckleRight)
+Weld.Part0 = BuckleRight
+Weld.Part1 = Torso
+Weld.C0 = CFrame.new(-0.65,0.1,0.5)
+
+Tool.Selected:connect(function(Mouse)
+TickWait = 0.3
+Mouse.Icon = "http://www.roblox.com/asset/?id=9109985"
+
+Mouse.Button1Down:connect(function()
+if Dead == false then
+Dead = true
+ExplodeSound:Play()
+wait(1.4)
+local Explosion = Instance.new("Explosion", Workspace)
+Explosion.Position = Belt.Position
+Explosion.BlastPressure = 100000
+Explosion.DestroyJointRadiusPercent = 0.7
+Explosion.ExplosionType = "CratersAndDebris"
+Explosion.BlastRadius = 50
+Explosion.Hit:connect(function(Part, Distance)
+Part.Anchored = false
+if Distance <= 10 then
+Part:BreakJoints()
+end
+end)
+end
+end)
+end)
+
+Tool.Deselected:connect(function()
+TickWait = 1
+end)
+
+coroutine.wrap(function()
+repeat
+wait(TickWait)
+Light.Enabled = not Light.Enabled
+Beep:Play()
+until Dead == true
+end)()
+]]
+    end},
+
+    {"Baseplate tp all.txt", function()
+        LMG2L["TextBox_e"]["Text"] = [[
+-- Configuração
+local altura = 500
+local centro = Vector3.new(0, altura, 0)
+
+-- Cria baseplate flutuante
+local baseplate = Instance.new("Part", workspace)
+baseplate.Size = Vector3.new(512, 5, 512)
+baseplate.Anchored = true
+baseplate.Position = centro
+baseplate.Name = "FloatingBaseplate"
+baseplate.BrickColor = BrickColor.Gray()
+baseplate.Material = Enum.Material.SmoothPlastic
+baseplate.TopSurface = Enum.SurfaceType.Smooth
+baseplate.BottomSurface = Enum.SurfaceType.Smooth
+
+-- Cria SpawnLocation sobre o baseplate
+local spawn = Instance.new("SpawnLocation", workspace)
+spawn.Size = Vector3.new(6, 1, 6)
+spawn.Anchored = true
+spawn.Position = centro + Vector3.new(0, baseplate.Size.Y / 2 + 1, 0)
+spawn.Neutral = true
+spawn.BrickColor = BrickColor.new("Bright green")
+spawn.Name = "SkySpawn"
+
+-- Teleporta todos os jogadores para a nova plataforma
+for _, player in pairs(game.Players:GetPlayers()) do
+	local char = player.Character
+	if char and char:FindFirstChild("HumanoidRootPart") then
+		char:MoveTo(spawn.Position + Vector3.new(0, 3, 0))
+	end
+end
+
+print("created base")
+
+]]
+    end},
+
+    {"Billboard All.txt", function()
+        LMG2L["TextBox_e"]["Text"] = [[
+local Players = game:GetService("Players")
+
+
+local function exibirHintAnimado()
+
+	for _, player in pairs(Players:GetPlayers()) do
+
+		if player.Character and player.Character:FindFirstChild("Head") then
+
+			local billboard = Instance.new("BillboardGui")
+			billboard.Size = UDim2.new(0, 400, 0, 50) 
+			billboard.Adornee = player.Character.Head 
+			billboard.StudsOffset = Vector3.new(0, 3, 0) 
+			billboard.Parent = player.Character.Head  
+
+
+			local textLabel = Instance.new("TextLabel")
+			textLabel.Size = UDim2.new(1, 0, 1, 0)  
+			textLabel.TextColor3 = Color3.fromRGB(255, 0, 4)  
+			textLabel.TextStrokeTransparency = 0.5 
+			textLabel.TextSize = 30  
+			textLabel.BackgroundTransparency = 1  
+			textLabel.Text = ""  
+			textLabel.Parent = billboard  
+
+
+			local mensagem = "c00lkidd"
+
+			for i = 1, #mensagem do
+				textLabel.Text = string.sub(mensagem, 1, i)  
+				wait(0.1)  
+			end
+		end
+	end
+end
+
+exibirHintAnimado()
+]]
+    end},
+
+
+    {"bird.txt", function()
+        LMG2L["TextBox_e"]["Text"] = [[
+
+function prop(part, parent, collide, tran, ref, x, y, z, color, anchor, form)
+
+part.Parent = parent
+
+part.formFactor = form
+
+part.CanCollide = collide
+
+part.Transparency = tran
+
+part.Reflectance = ref
+
+part.Size = Vector3.new(x,y,z)
+
+part.BrickColor = BrickColor.new(color)
+
+part.TopSurface = 0
+
+part.BottomSurface = 0
+
+part.Anchored = anchor
+
+part.Locked = true
+
+part:BreakJoints()
+
+end
+
+
+
+function weld(w, p, p1, a, b, c, x, y, z)
+
+w.Parent = p
+
+w.Part0 = p
+
+w.Part1 = p1
+
+w.C1 = CFrame.fromEulerAnglesXYZ(a,b,c) * CFrame.new(x,y,z)
+
+end
+
+
+
+function bird(pos)
+
+	local mod = Instance.new("Model")
+
+	mod.Name = "Bird"
+
+	local main = Instance.new("Part")
+
+	prop(main,mod,true,0,0,1.5,1.4,2.5,"Black",false,"Custom")
+
+	main.CFrame = CFrame.new(pos) * CFrame.Angles(0,math.random(-32,32)/10,0)
+
+	main.Name = "Torso"
+
+	Instance.new("SpecialMesh",main).MeshType = "Sphere"
+
+
+
+	local pa1 = Instance.new("Part")
+
+	prop(pa1,mod,false,0,0,0.9,1,0.9,"Black",false,"Custom")
+
+	pa1.CFrame = main.CFrame
+
+	pa1.Name = "Head"
+
+	Instance.new("SpecialMesh",pa1).MeshType = "Sphere"
+
+
+
+	local pa2 = Instance.new("Part")
+
+	prop(pa2,mod,false,0,0,0.2,0.4,0.7,"Neon orange",false,"Custom")
+
+	pa2.CFrame = main.CFrame
+
+	Instance.new("SpecialMesh",pa2).MeshType = "Wedge"
+
+
+
+	local wing1 = Instance.new("Part")
+
+	prop(wing1,mod,false,0,0,0.2,1.8,1.1,"Black",false,"Custom")
+
+	wing1.CFrame = main.CFrame
+
+
+
+	local wing2 = Instance.new("Part")
+
+	prop(wing2,mod,false,0,0,0.2,1.8,1.1,"Black",false,"Custom")
+
+	wing2.CFrame = main.CFrame
+
+
+
+
+
+	local w1 = Instance.new("Weld")
+
+	weld(w1,main,pa1,0.5,0,0,0,-0.6,1.2)
+
+	w1.Name = "Neck"
+
+
+
+	local w2 = Instance.new("Weld")
+
+	weld(w2,main,pa2,-0.2,0,0,0,-0.6,1.7)
+
+
+
+	local wi1 = Instance.new("Weld")
+
+	weld(wi1,main,wing1,0,0,math.pi/2,-1,-0.1,0.1)
+
+	local worig1 = CFrame.new(0.4,0,0) * CFrame.fromEulerAnglesXYZ(0,0,-0.4)
+
+	wi1.C0 = worig1
+
+
+
+	local wi2 = Instance.new("Weld")
+
+	weld(wi2,main,wing2,0,0,-math.pi/2,1,-0.1,0.1)
+
+	local worig2 = CFrame.new(-0.4,0,0) * CFrame.fromEulerAnglesXYZ(0,0,0.4)
+
+	wi2.C0 = worig2
+
+
+
+	local hum = Instance.new("Humanoid",mod)
+
+	hum.Name = "Humanoid"
+
+	hum.MaxHealth = 30
+
+	hum.Health = 30
+
+
+
+	local bv = Instance.new("BodyVelocity",main)
+
+	bv.maxForce = Vector3.new(math.huge,math.huge,math.huge)
+
+	bv.P = 5000
+
+	bv.velocity = main.CFrame.lookVector * 6
+
+
+
+	local bav = Instance.new("BodyAngularVelocity",main)
+
+	bav.maxTorque = Vector3.new(math.huge,math.huge,math.huge)
+
+	bav.P = 5000
+
+	bav.angularvelocity = Vector3.new(0,0,0)
+
+
+
+	hum.Died:connect(function()
+
+		bv:remove()
+
+		bav:remove()
+
+		wait(4)
+
+		mod:remove()
+
+	end)
+
+	mod.Parent = workspace
+
+	mod:MakeJoints()
+
+	coroutine.resume(coroutine.create(function()
+
+		while true do
+
+			for i=0.4,-0.4,-0.15 do
+
+				wait()
+
+				wi1.C0 = worig1 * CFrame.fromEulerAnglesXYZ(0,0,i)
+
+				wi2.C0 = worig2 * CFrame.fromEulerAnglesXYZ(0,0,-i)
+
+			end
+
+			for i=0.4,-0.4,-0.15 do
+
+				wait()
+
+				wi1.C0 = worig1 * CFrame.fromEulerAnglesXYZ(0,0,-i)
+
+				wi2.C0 = worig2 * CFrame.fromEulerAnglesXYZ(0,0,i)
+
+			end
+
+		end
+
+	end))
+
+	coroutine.resume(coroutine.create(function()
+
+		while true do
+
+			wait(0.1)
+
+			local turn = math.random(1,6)
+
+			coroutine.resume(coroutine.create(function()
+
+				if turn == 1 then
+
+					bav.angularvelocity = Vector3.new(0,6,0)
+
+					wait(1)
+
+					bav.angularvelocity = Vector3.new(0,0,0)
+
+					bv.velocity = main.CFrame.lookVector * 6
+
+				elseif turn == 2 then
+
+					bav.angularvelocity = Vector3.new(0,-6,0)
+
+					wait(1)
+
+					bav.angularvelocity = Vector3.new(0,0,0)
+
+					bv.velocity = main.CFrame.lookVector * 6
+
+				end
+
+			end))
+
+		end
+
+	end))
+
+end
+
+
+
+for i=1, math.random(4,11) do
+
+	local poz = Vector3.new(math.random(-100,100),math.random(60,80),math.random(-100,100))
+
+	bird(poz)
+
+end
+
+
+]]
+    end},
+
+    {"Bridge Tools.txt", function()
+        LMG2L["TextBox_e"]["Text"] = [[
+
+me = game.Players.LocalPlayer
+h = Instance.new("HopperBin")
+h.Parent = me.Backpack
+h.Name = "Bridge Tool"
+bridges = {}
+hold = false
+using = false
+holdkey = false
+polesize = 5
+function selected(mouse, key)
+	mouse.Button1Down:connect(function()
+		if mouse.Target == nil then return end
+		if using == true then return end
+		using = true
+		hold = true
+		pos = mouse.Hit.p
+		p = Instance.new("Part")
+		p.Parent = workspace
+		p.formFactor = 0
+		p.Size = Vector3.new(5,1,1)
+		p.Anchored = true
+		p.Transparency = 0.6
+		p.TopSurface = 0
+		p.BrickColor = BrickColor.new("Brown")
+		p.BottomSurface = 0
+		p.CFrame = CFrame.new(pos)
+		mes = Instance.new("SpecialMesh")
+		mes.Parent = p
+		mes.MeshType = "Brick"
+		mes.Scale = Vector3.new(1,1,1)
+		table.insert(bridges, p)
+		mouse.Move:connect(function()
+			if mouse.Target == nil then return end
+			if hold == true then
+				local dist = (p.Position - mouse.Hit.p).magnitude
+				p.CFrame = CFrame.new((mouse.Hit.p + pos)/2, pos)
+				mes.Scale = Vector3.new(1,1,dist*2)
+			end
+		end)
+	end)
+	mouse.Button1Up:connect(function()
+		hold = false
+		local duh = p.CFrame
+		p.Size = Vector3.new(5,1,mes.Scale.Z)
+		p.CFrame = duh
+		mes:remove()
+		for i=1, 5 do
+			wait()
+			p.Transparency = p.Transparency - 0.12
+		end
+		p.Material = "Wood"
+		using = false
+	end)
+	mouse.KeyDown:connect(function(key)
+		key = key:lower()
+		if (key == "r") then
+			for i=1, #bridges do
+				bridges[i]:remove()
+			end
+		elseif (key == "q") then
+			polesize = polesize - 1
+			local ms = Instance.new("Message")
+			ms.Parent = me
+			ms.Text = "Pole size decreased to "..polesize
+			wait(0.4)
+			ms:remove()
+		elseif (key == "e") then
+			polesize = polesize + 1
+			local ms = Instance.new("Message")
+			ms.Parent = me
+			ms.Text = "Pole size increased to "..polesize
+			wait(0.4)
+			ms:remove()
+		elseif (key == "f") then
+			if mouse.Target == nil then return end
+			if using == true then return end
+			using = true
+			holdkey = true
+			po = Instance.new("Part")
+			po.Parent = workspace
+			po.formFactor = 0
+			po.Size = Vector3.new(1,1,1)
+			po.Anchored = true
+			po.Transparency = 0.5
+			po.TopSurface = 0
+			po.BrickColor = BrickColor.new("Brown")
+			po.BottomSurface = 0
+			mesh = Instance.new("SpecialMesh")
+			mesh.Parent = po
+			mesh.Scale = Vector3.new(1,polesize,1)
+			po.CFrame = CFrame.new(mouse.Hit.p.X, mouse.Hit.p.Y + mesh.Scale.Y/2, mouse.Hit.p.Z)
+			table.insert(bridges,po)
+		end
+	end)
+	mouse.KeyUp:connect(function(key)
+		key = key:lower()
+		if (key == "f") then
+			holdkey = false
+			for i=1, 5 do
+				wait()
+				po.Transparency = po.Transparency - 0.1
+			end
+			local posi = po.CFrame
+			po.Material = "Wood"
+			po.Size = mesh.Scale
+			mesh:remove()
+			po.CFrame = posi
+			using = false
+		end
+	end)
+end
+function deselected()
+end
+h.Selected:connect(selected)
+h.Deselected:connect(deselected)
+
+]]
+    end},
+
+    {"Chicken Arm.txt", function()
+        LMG2L["TextBox_e"]["Text"] = [[				
+local Chicken = game.Players.LocalPlayer.Name
+game.Workspace[Chicken].Torso["Left Shoulder"].C0 = CFrame.new(-1.5, 0.5, 0) * CFrame.fromEulerAnglesXYZ(0,math.pi/2,0) * CFrame.fromEulerAnglesXYZ(math.pi/2, 0, 0) * CFrame.fromEulerAnglesXYZ(0,-math.pi/2,0)
+game.Workspace[Chicken].Torso["Left Shoulder"].C1 = CFrame.new(0, 0.5, 0)
+game.Workspace[Chicken].Torso["Right Shoulder"].C0 = CFrame.new(1.5, 0.5, 0) * CFrame.fromEulerAnglesXYZ(0,-math.pi/2,0) * CFrame.fromEulerAnglesXYZ(math.pi/2, 0, 0) * CFrame.fromEulerAnglesXYZ(0,-math.pi/2,0)
+game.Workspace[Chicken].Torso["Right Shoulder"].C1 = CFrame.new(0, 0.5, 0)
+]]
+    end},
+
+    {"c00lkidshead_s.txt", function()
+        LMG2L["TextBox_e"]["Text"] = [[				
+		for X = 1, math.huge, 0.2 do 	
+			wait() 	
+			game.Workspace[game.Players.LocalPlayer.Name].Torso.Neck.C0 = CFrame.new(math.sin(X) / 1,1.5,0) 	
+			game.Workspace[game.Players.LocalPlayer.Name].Torso.Neck.C1 = CFrame.new(0,0,0) 	
+		end 	
+		for X = 1, math.huge, 0.1 do 	
+			wait() 	
+			game.Workspace[game.Players.LocalPlayer.Name].Torso.Neck.C0 = CFrame.new(0,1.5,0) * CFrame.fromAxisAngle(Vector3.new(0,1,0), X) 	
+			game.Workspace[game.Players.LocalPlayer.Name].Torso.Neck.C1 = CFrame.new(0,0,0) 	
+		end 	
+		for _,c in pairs(game.Players:GetChildren()) do	
+			c.Character.Head.Mesh.Scale = Vector3.new(100, 100, 100)	
+		end	
+		for _,c in pairs(game.Players:GetChildren()) do	
+			c.Character.Head.Mesh.Scale = Vector3.new(1.25, 1.25, 1.25)	
+		end	
+]]
+    end},
+
+    {"c00lkidd theme.txt", function()
+        LMG2L["TextBox_e"]["Text"] = [[for i,v in pairs(game.Workspace:GetChildren()) do
+	if v.className == "Sound" then
+		v:Stop()
+		v:Remove()	
+	end	
+end
+s = Instance.new("Sound",Workspace)
+s.SoundId = "rbxassetid://104184334560442"
+s.Volume = 10
+s.Looped = true
+s.Pitch = 0.71
+s:Play()
+wait(.1)
+s:Play()]]
+    end},
+
+
+    {"c00lkidd theme 2.txt", function()
+        LMG2L["TextBox_e"]["Text"] = [[for i,v in pairs(game.Workspace:GetChildren()) do
+	if v.className == "Sound" then
+		v:Stop()
+		v:Remove()	
+	end	
+end
+s = Instance.new("Sound",Workspace)
+s.SoundId = "rbxassetid://72089843969979"
+s.Volume = 10
+s.Looped = true
+s.Pitch = 0.71
+s:Play()
+wait(.1)
+s:Play()]]
+    end},
+
+
+
+    {"c00lkidd Skybox.txt", function()
+        LMG2L["TextBox_e"]["Text"] = [[s = Instance.new("Sky")
+s.Name = "Sky"
+s.Parent = game.Lighting
+s.SkyboxBk = "http://www.roblox.com/asset/?id=8408806737"
+s.SkyboxDn = "http://www.roblox.com/asset/?id=8408806737"
+s.SkyboxFt = "http://www.roblox.com/asset/?id=8408806737"
+s.SkyboxLf = "http://www.roblox.com/asset/?id=8408806737"
+s.SkyboxRt = "http://www.roblox.com/asset/?id=8408806737" 
+s.SkyboxUp = "http://www.roblox.com/asset/?id=8408806737"
+game.Lighting.TimeOfDay = 12]]
+    end},
+
+    {"c00lkiddMario.txt", function()
+        LMG2L["TextBox_e"]["Text"] = [[
+-- mario exe 
+-- pizza place 
+for i,v in pairs(game.Workspace:GetChildren()) do
+	if v.className == "Sound" then
+		v:Stop()
+		v:Remove()	
+	end	
+end 
+
+
+
+
+
+wait(1)
+for _, v in pairs(game:GetService("Players"):GetPlayers()) do  
+    v.Chatted:Connect(function(message)  
+        if message == "/e laugh" then  
+            local g = Instance.new("Sound", v.Character.Head)  
+            g.SoundId = "rbxassetid://99759330976222"  
+            g.Volume = 3  
+            local distortion = Instance.new("DistortionSoundEffect")
+            distortion.Level = 0.33
+            distortion.Parent = g
+            g:Play()  
+        end  
+    end)  
+end
+
+
+local soundId = "rbxassetid://93184334779935"
+local sound = Instance.new("Sound")
+sound.SoundId = soundId
+sound.Looped = true
+sound.Volume = 9999999
+sound.PlaybackSpeed = 1
+sound.Pitch = 1.0
+sound.Parent = game.Workspace
+--local distortion = Instance.new("DistortionSoundEffect")
+--distortion.Level = 1
+--distortion.Parent = sound
+sound:Play()
+
+local decalId = "rbxassetid://110789423089116"
+local skyId = "rbxassetid://110789423089116"
+
+
+local function applyDecalToAllSides(part)
+    local faces = {
+        Enum.NormalId.Top,
+        Enum.NormalId.Bottom,
+        Enum.NormalId.Left,
+        Enum.NormalId.Right,
+        Enum.NormalId.Front,
+        Enum.NormalId.Back
+    }
+
+    for _, face in ipairs(faces) do
+        local decal = Instance.new("Decal")
+        decal.Texture = decalId
+        decal.Face = face
+        decal.Parent = part
+    end
+end
+
+
+for _, part in ipairs(workspace:GetDescendants()) do
+    if part:IsA("BasePart") then
+        applyDecalToAllSides(part)
+    end
+end
+
+
+local sky = Instance.new("Sky")
+sky.SkyboxBk = skyId
+sky.SkyboxDn = skyId
+sky.SkyboxFt = skyId
+sky.SkyboxLf = skyId
+sky.SkyboxRt = skyId
+sky.SkyboxUp = skyId
+sky.Parent = game.Lighting
+
+]]
+    end},
+
+
+    {"c00lkidd decal.txt", function()
+        LMG2L["TextBox_e"]["Text"] = [[
+function exPro(root)
+		for _, v in pairs(root:GetChildren()) do
+			if v:IsA("Decal") and v.Texture ~= "http://www.roblox.com/asset/?id=8408806737" then
+				v.Parent = nil
+			elseif v:IsA("BasePart") then
+				v.Material = "Plastic"
+				v.Transparency = 0
+				local One = Instance.new("Decal", v)
+				local Two = Instance.new("Decal", v)
+				local Three = Instance.new("Decal", v)
+				local Four = Instance.new("Decal", v)
+				local Five = Instance.new("Decal", v)
+				local Six = Instance.new("Decal", v)
+				One.Texture = "http://www.roblox.com/asset/?id=8408806737" -- CHANGE ID
+				Two.Texture = "http://www.roblox.com/asset/?id=8408806737" -- CHANGE ID
+				Three.Texture = "http://www.roblox.com/asset/?id=8408806737" -- CHANGE ID
+				Four.Texture = "http://www.roblox.com/asset/?id=8408806737" -- CHANGE ID
+				Five.Texture = "http://www.roblox.com/asset/?id=8408806737" -- CHANGE ID
+				Six.Texture = "http://www.roblox.com/asset/?id=8408806737" -- CHANGE ID
+				One.Face = "Front"
+				Two.Face = "Back"
+				Three.Face = "Right"
+				Four.Face = "Left"
+				Five.Face = "Top"
+				Six.Face = "Bottom"
+			end
+			exPro(v)
+		end
+	end
+	function asdf(root)
+		for _, v in pairs(root:GetChildren()) do
+			asdf(v)
+		end
+	end
+	exPro(game.Workspace)
+	asdf(game.Workspace)
+]]
+    end},
+
+    {"c00lkidFloatpad.txt", function()
+        LMG2L["TextBox_e"]["Text"] = [[local name = game.Players.LocalPlayer.Name
+    
+        local p = Instance.new("Part")
+        p.Parent = workspace
+        p.Locked = true
+        p.BrickColor = BrickColor.new("White")
+        p.BrickColor = BrickColor.new(104)
+        p.Size = Vector3.new(8, 1.2, 8)
+        p.Anchored = true
+        local m = Instance.new("CylinderMesh")
+        m.Scale = Vector3.new(1, 0.5, 1)
+        m.Parent = p
+        while true do
+            p.CFrame = CFrame.new(game.Players:findFirstChild(name).Character.Torso.CFrame.x, game.Players:findFirstChild(name).Character.Torso.CFrame.y - 4, game.Players:findFirstChild(name).Character.Torso.CFrame.z)
+            wait()
+        end
+]]
+    end},
+
+
+
+
+
+
+}
+
+
+
+
+for i, data in ipairs(buttons) do
+    local name = "_" .. i
+
+    LMG2L[name] = Instance.new("TextButton", LMG2L["ScrollingFrame_8"])
+
+    LMG2L[name].Name = name
+    LMG2L[name].BorderSizePixel = 0
+    LMG2L[name].TextXAlignment = Enum.TextXAlignment.Left
+    LMG2L[name].TextSize = 9
+    LMG2L[name].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    LMG2L[name].BackgroundTransparency = 1
+    LMG2L[name].Size = UDim2.new(0, 120, 0, 20)
+
+
+    LMG2L[name].Position = UDim2.new(
+        0, 0,
+        0, (i - 1) * 16
+    )
+
+    LMG2L[name].Text = data[1]
+
+    LMG2L[name].MouseButton1Click:Connect(function()
+        data[2]()
+    end)
+end
+
+LMG2L["ScrollingFrame_8"].CanvasSize = UDim2.new(
+    0, 0,
+    0, #buttons * 16
+)
+
+LMG2L["TextButton_f"].MouseButton1Click:Connect(function()
+if LMG2L["TextBox_e"].Text ~= "" then	
+pcall(function()	
+loadstring(LMG2L["TextBox_e"].Text)()	
+end)	
+end
+end)
+
+LMG2L["TextButton2_a"].MouseButton1Click:Connect(function()
+LMG2L["TextBox_e"]["Text"] = [[]]
+end)
+
+
+
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local LOGO = Instance.new("ScreenGui")
+local Face = Instance.new("ImageLabel")
+local Orbit = Instance.new("ImageLabel")
+local UIAspectRatioConstraint = Instance.new("UIAspectRatioConstraint")
+local UICorner = Instance.new("UICorner")
+local UIAspectRatioConstraint_2 = Instance.new("UIAspectRatioConstraint")
+
+--Properties:
+
+LOGO.Name = "LOGO"
+LOGO.Parent = game.CoreGui
+LOGO.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+LOGO.ResetOnSpawn = false
+
+Face.Name = "Face"
+Face.Parent = LOGO
+Face.Active = true
+Face.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Face.BackgroundTransparency = 1.000
+Face.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Face.BorderSizePixel = 0
+Face.Position = UDim2.new(-0.0848358572, 0, 0.40941292, 0)
+Face.Size = UDim2.new(0.0988271087, 0, 0.108296312, 0)
+Face.Image = "rbxassetid://121277228837870"
+
+Orbit.Name = "Orbit"
+Orbit.Parent = Face
+Orbit.AnchorPoint = Vector2.new(0.5, 0.5)
+Orbit.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Orbit.BackgroundTransparency = 1.000
+Orbit.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Orbit.BorderSizePixel = 0
+Orbit.Position = UDim2.new(0.495019555, 0, 0.489923686, 0)
+Orbit.Size = UDim2.new(2.24704003, 0, 1.5323751, 0)
+Orbit.ZIndex = 2147483647
+Orbit.Image = "http://www.roblox.com/asset/?id=93530197731696"
+Orbit.ScaleType = Enum.ScaleType.Fit
+
+UIAspectRatioConstraint.Parent = Orbit
+
+UICorner.CornerRadius = UDim.new(1, 0)
+UICorner.Parent = Face
+
+UIAspectRatioConstraint_2.Parent = Face
+
+-- Scripts:
+
+local function log() -- Orbit.LocalScript 
+	local script = Instance.new('LocalScript', Orbit)
+
+	local step = (2*math.pi)/450
+	local rotvel = 1
+	local theta = 0
+	local Ring = script.Parent
+	
+	while game:GetService'RunService'.Heartbeat:Wait() do
+		theta = theta < 360 and theta + step or 0
+		Ring.Rotation = Ring.Rotation < 360 and Ring.Rotation + rotvel or 0
+		game:GetService'RunService'.Heartbeat:wait()
+	end
+end
+coroutine.wrap(log)()
+local function log() -- Orbit.LocalScript 
+	local script = Instance.new('LocalScript', LOGO)
+local RunService, FindFirstChildOfClass = game.GetService(game, "RunService"), game.FindFirstChildOfClass;
+local Client = game.GetService(game, "Players").LocalPlayer
+
+-- functions
+function AntiFling()
+   local HeartbeatLoop = nil
+   
+   for _, v in next, game:GetDescendants() do
+       if  v and v:IsA"Part"  and v.Parent ~= Client.Character and v.Anchored == false and v.Name == "HumanoidRootPart" then 
+           HeartbeatLoop = RunService.Heartbeat:Connect(function()
+               v.CustomPhysicalProperties = PhysicalProperties.new(0,0,0,0,0)
+               v.Velocity = Vector3.new(0,0,0)
+               v.RotVelocity = Vector3.new(0,0,0)
+               v.CanCollide = false
+task.wait(1)
+           end)
+       end
+   end
+   end
+   
+   Client.Character.Humanoid.Died:Connect(function()
+       HeartbeatLoop:Disconnect()
+       HeartbeatLoop = nil
+   end)
+AntiFling()
+workspace.DescendantAdded:Connect(function(part) if part:isA("Part") and part.Name == "HumanoidRootPart"  and part.Parent ~= game.Players.LocalPlayer.Character then do wait(2) AntiFling()
+end
+
+
+end
+end)
+
+end
+coroutine.wrap(log)()
+local function log() -- LOGO. 
+	local script = Instance.new('LocalScript', LOGO)
+
+	local logo = script.Parent:FindFirstChildOfClass("ImageLabel")
+	
+	logo:TweenPosition(UDim2.new(0.465, 0,0.441,0), Enum.EasingDirection.Out, Enum.EasingStyle.Sine, 1)
+	wait(2)
+	logo:TweenPosition(UDim2.new(0.022,0,0.853,0), Enum.EasingDirection.Out, Enum.EasingStyle.Sine, 1)
+	
+end
+coroutine.wrap(log)()
+local function log() -- LOGO.Script 
+	local script = Instance.new('Script', LOGO)
+
+	script.Parent.ResetOnSpawn = false
+end
+coroutine.wrap(log)()
+
+
+local ScrollingFrame = LMG2L["ScrollingFrame2_d"]
+local Source = LMG2L["TextBox_e"]
+
+	local function UpdateCanvas()
+		if Source.Text == "" then
+			ScrollingFrame.CanvasSize = UDim2.new(0,0,0,0)
+			return
+		end
+
+		local Size = Source.AbsoluteSize
+
+		ScrollingFrame.CanvasSize = UDim2.new(
+			0,
+			math.max(Size.X + 8, ScrollingFrame.AbsoluteSize.X),
+			0,
+			math.max(Size.Y + 8, ScrollingFrame.AbsoluteSize.Y)
+		)
+	end
+
+	Source:GetPropertyChangedSignal("Text"):Connect(UpdateCanvas)
+	Source:GetPropertyChangedSignal("AbsoluteSize"):Connect(UpdateCanvas)
+	ScrollingFrame:GetPropertyChangedSignal("AbsoluteSize"):Connect(UpdateCanvas)
+
+	UpdateCanvas()
+return LMG2L["ScreenGui_1"]
